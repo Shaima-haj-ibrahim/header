@@ -15,17 +15,23 @@ ul{
 
 .header{
     display:flex;
-    justify-content: space-between;
-    padding-top: 57px;
-    padding-bottom: 45px;
-    background-color: rgba(0, 255, 255, 0.147);
+    justify-content: space-around;
+    margin: 45px 0px;
+    padding: 15px 0px;
+    background-color: rgba(157, 165, 165, 0.119);
+    position: fixed;
+    width: 100%;
 
 }
 .container{
-    
+    display: flex;
+    width: 100%;
     padding-left: 367px;
-    padding-right: 376px;
+    padding-right: 367px;
+    
+    margin: 0 auto;
 }
+
 
 list{
     text-decoration: none;
@@ -54,4 +60,14 @@ list{
     display: flex;
     
     
+}
+.header .list a { 
+
+    transition:  1.1s;
+}
+.header .list a:hover{
+
+    color: #fb2e2e;
+    font-size: 30px;
+
 }
