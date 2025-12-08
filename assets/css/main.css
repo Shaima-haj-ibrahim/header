@@ -13,33 +13,37 @@ ul{
     list-style-type: none;
 }
 
+
+
+
 .header{
-    display:flex;
-    justify-content: space-around;
-    margin: 45px 0px;
-    padding: 15px 0px;
-    background-color: rgba(157, 165, 165, 0.119);
-    position: fixed;
-    width: 100%;
 
-}
-.container{
-    display: flex;
-    width: 100%;
-    padding-left: 367px;
-    padding-right: 367px;
+   
+    padding: 45px 0;
+    background-color: rgb(230, 230, 224);
     
-    margin: 0 auto;
 }
 
+ .container {
+  max-width: 1200px; 
+  margin: 0 auto;      
+  padding: 0 24px;     
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    
 
 list{
     text-decoration: none;
 
 }
 
+
+
 .header ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 0px 36px;
 }
 
@@ -70,4 +74,31 @@ list{
     color: #fb2e2e;
     font-size: 30px;
 
+}
+
+
+   
+.header .menu {
+    display: none;
+}
+
+@media screen and (min-width:0) and (max-width:680px){
+
+    body{
+        background-color: #c3b4b4;
+
+    }
+
+    .header .list, 
+    .header .form{
+        display: none;
+    }
+
+      
+ .header .menu {
+    display: block;
+}
+
+    
+    
 }
