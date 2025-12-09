@@ -21,13 +21,12 @@ ul{
  .contact{
     margin-top: 100px;
  }
-
+ 
  .container{
     width: 100%;
-    max-width: 1400px;
-
-    padding: 0 50px;
-    margin: 0 auto;
+     max-width: 1400px;
+     padding: 0 50px;
+     margin: 0 auto;
  }
 
  .row{
@@ -46,9 +45,8 @@ ul{
 
 
 /* strat header*/
-.header{
 
-   
+ .header{
     padding: 45px 0;
     background-color: rgb(230, 230, 224);
     position: fixed;
