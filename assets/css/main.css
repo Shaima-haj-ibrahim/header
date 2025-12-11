@@ -131,6 +131,60 @@ ul{
 
 /* end header*/
 
+/*hero start*/
+
+
+.hero{
+    background-image: url(./../image/Rectangle\ 102.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-color:#E7E6EF;
+    
+     height: 43vh;
+     width: 100%;
+
+      display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+   
+    
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+
+}
+
+.hero-content h2{
+    color: #151875;
+}
+.hero-content a{
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: #FB2E86;
+    width: 173px;
+    height: 49px;
+    color: #E7E6EF;
+
+}
+
+
+
+/*End hero*/
+
 
 /* start footer*/
   
